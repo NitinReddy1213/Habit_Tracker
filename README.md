@@ -25,18 +25,17 @@ Deployment: Heroku, AWS, or any cloud platform
 Version Control: Git
 
 
-Directory structure:
-└── nitinreddy1213-habit_tracker/
-├── app.py
-├── requirements.txt
-├── routes.py
-├── .ENV
-├── .ENV.EXAMPLE
-├── static/
-│   └── index.css
-└── templates/
-├── add_habit.html
-├── index.html
-└── layout.html
+nitinreddy1213-habit_tracker/
+    ├── app.py                  # Main Flask application
+    ├── requirements.txt        # Python dependencies
+    ├── routes.py               # Flask routes and logic
+    ├── .ENV                    # Environment variables (ignored in Git)
+    ├── .ENV.EXAMPLE            # Example environment variables file
+    ├── static/                 # Static files (CSS, JS, images)
+    │   └── index.css           # Custom styles
+    └── templates/              # HTML templates
+        ├── add_habit.html      # Add habit page
+        ├── index.html          # Home page
+        └── layout.html         # Base layout template
 
 
