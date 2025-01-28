@@ -27,16 +27,16 @@ Version Control: Git
 
 Directory structure:
 └── nitinreddy1213-habit_tracker/
-    ├── app.py
-    ├── requirements.txt
-    ├── routes.py
-    ├── .ENV
-    ├── .ENV.EXAMPLE
-    ├── static/
-    │   └── index.css
-    └── templates/
-        ├── add_habit.html
-        ├── index.html
-        └── layout.html
+├── app.py
+├── requirements.txt
+├── routes.py
+├── .ENV
+├── .ENV.EXAMPLE
+├── static/
+│   └── index.css
+└── templates/
+├── add_habit.html
+├── index.html
+└── layout.html
 
 
