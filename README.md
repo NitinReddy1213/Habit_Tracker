@@ -1,41 +1,70 @@
-A HABIT TRACKER
+# Habit Tracker Web App
 
-A simple and intuitive habit tracking application built with Flask (Python) to help users build and maintain good habits. Track your daily habits, mark them as completed, and visualize your progress over time.
+## Overview
+Habit Tracker is a Flask-based web application that allows users to track their daily habits, set goals, and monitor progress. Users can log their habits and view their history over time.
 
-Features
-Add Habits: Easily add new habits to track.
+## Features
+- User authentication (register, login, logout)
+- Add, edit, and delete habits
+- View habit tracking history
+- Responsive and user-friendly design
 
-Mark as Completed: Mark habits as completed for a specific date.
-
-Progress Tracking: View your habit completion history and progress.
-
-Responsive Design: Works seamlessly on desktop and mobile devices.
-
-Simple and Clean UI: User-friendly interface for a smooth experience.
-
-Technologies Used
-Backend: Flask (Python)
-
-Frontend: HTML, CSS, JavaScript
-
-Database: MongoDB (or any database of your choice)
-
-Deployment: Heroku, AWS, or any cloud platform
-
-Version Control: Git
-
-
+## Project Structure
+```
 nitinreddy1213-habit_tracker/
-    ├── app.py                  # Main Flask application
-    ├── requirements.txt        # Python dependencies
-    ├── routes.py               # Flask routes and logic
-    ├── .ENV                    # Environment variables (ignored in Git)
-    ├── .ENV.EXAMPLE            # Example environment variables file
-    ├── static/                 # Static files (CSS, JS, images)
-    │   └── index.css           # Custom styles
-    └── templates/              # HTML templates
-        ├── add_habit.html      # Add habit page
-        ├── index.html          # Home page
-        └── layout.html         # Base layout template
+├── README.md
+├── app.py
+├── requirements.txt
+├── routes.py
+├── .ENV
+├── .ENV.EXAMPLE
+├── static/
+│   └── index.css
+└── templates/
+    ├── add_habit.html
+    ├── index.html
+    └── layout.html
+```
 
+## Installation
 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/nitinreddy1213/habit_tracker.git
+   cd habit_tracker
+   ```
+
+2. **Create a Virtual Environment (Optional but Recommended)**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set Up Environment Variables**
+   - Copy `.ENV.EXAMPLE` to `.ENV` and configure necessary variables like database URL and secret key.
+
+5. **Run the Application**
+   ```bash
+   flask run
+   ```
+
+6. **Access the App**
+   - Open your browser and go to `http://127.0.0.1:5000`
+
+## Usage
+- Register or log in to start tracking habits.
+- Add new habits and log daily progress.
+- View and manage habits over time.
+
+## Technologies Used
+- **Backend:** Python, Flask
+- **Frontend:** HTML, CSS
+- **Database:** MongoDB
+
+## Contributing
+Contributions are welcome! Feel free to fork this repository, make changes, and submit a pull request.
